@@ -3,4 +3,4 @@
 
 **Course Homepage**: https://sites.google.com/udacity.com/suse-cloud-native-foundations/hom
 
-**Instructor**: https://github.com/dumken1
+**Instructor**: https://github.com/dumken1 
