@@ -1,0 +1,63 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.145:3111/ (Press CTRL+C to quit)
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/dumken/.local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dumken/.local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dumken/.local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dumken/.local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 29, in index
+    posts = connection.execute('SELECT * FROM posts').fetchall()
+sqlite3.OperationalError: no such table: posts
+INFO:werkzeug:192.168.0.145 - - [09/Oct/2022 10:48:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/dumken/.local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dumken/.local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dumken/.local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dumken/.local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 29, in index
+    posts = connection.execute('SELECT * FROM posts').fetchall()
+sqlite3.OperationalError: no such table: posts
+INFO:werkzeug:192.168.0.145 - - [09/Oct/2022 10:48:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.0.145 - - [09/Oct/2022 10:48:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:app:Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/dumken/.local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dumken/.local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dumken/.local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dumken/.local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 29, in index
+    posts = connection.execute('SELECT * FROM posts').fetchall()
+sqlite3.OperationalError: no such table: posts
+INFO:werkzeug:192.168.0.145 - - [09/Oct/2022 10:48:36] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.0.145 - - [09/Oct/2022 10:48:56] "GET /metrics HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.145:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.0.145 - - [09/Oct/2022 10:49:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.145 - - [09/Oct/2022 10:49:49] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.145 - - [09/Oct/2022 10:50:07] "GET /about HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.145 - - [09/Oct/2022 10:50:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.0.145:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.0.145 - - [09/Oct/2022 11:01:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.145 - - [09/Oct/2022 11:01:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.0.145 - - [09/Oct/2022 11:01:27] "[33mGET /metics HTTP/1.1[0m" 404 -
+INFO:app:Metrics request successfull
+INFO:werkzeug:192.168.0.145 - - [09/Oct/2022 11:01:45] "GET /metrics HTTP/1.1" 200 -
