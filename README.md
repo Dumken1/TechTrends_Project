@@ -1,4 +1,4 @@
-# nd064_C1
+# TechTrends_Project
 ### Cloud Native Fundamentals Scholarship Program Nanodegree Program
 
-**Instructor**: https://github.com/dumken1 
+**Developer**: https://github.com/dumken1 
